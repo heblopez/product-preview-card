@@ -16,7 +16,7 @@ export default function ProductPreviewCard() {
           <p className='font-title text-title text-primary font-black'>$149.99</p>
           <p className='text-paragraph line-through text-xs'>$169.99</p>
         </div>
-        <button className='bg-primary text-white rounded-md p-3 flex gap-3 items-center justify-center'>
+        <button className='bg-primary text-white rounded-md p-3 flex gap-3 items-center justify-center hover:bg-primary-hover'>
           <img src={iconCart} alt="Cart icon" />
           <p className='font-bold'>Add to Cart</p>
         </button>
