@@ -19,7 +19,7 @@
   --primary-color: var(--dark-cyan);
   --secondary-color: var(--cream);
 
-  --font-size-paragraph: 0.875rem; /* 14px*/
+  --font-size-paragraph: 0.875rem;
   --font-size-title: 2rem;
   
   --font-weight-regular: 500;
@@ -37,4 +37,6 @@ body {
   font-size: var(--font-size-paragraph);
   font-weight: var(--font-weight-regular);
   color: var(--dark-grayish-blue);
+  background-color: var(--secondary-color);
+  padding: 2rem 1rem;
 }
